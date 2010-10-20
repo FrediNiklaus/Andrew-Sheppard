@@ -1,0 +1,8 @@
+# Visual Studio generated files.
+*.dll
+*.exe
+*.tlb
+*.pdb
+*.cache
+*.FileListAbsolute.txt
+*.obj
