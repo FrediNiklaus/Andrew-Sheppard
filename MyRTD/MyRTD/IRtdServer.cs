@@ -20,7 +20,9 @@ namespace MyRTD
     /// get a run-time error.
     /// </summary>
     /// 
-    [ComImport, TypeLibType((short)0x1040), Guid("EC0E6191-DB51-11D3-8F3E-00C04F3651B8")]
+    [ComImport,
+     TypeLibType((short)0x1040),
+     Guid("EC0E6191-DB51-11D3-8F3E-00C04F3651B8")]
     public interface IRtdServer
     {
         [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime), DispId(10)]

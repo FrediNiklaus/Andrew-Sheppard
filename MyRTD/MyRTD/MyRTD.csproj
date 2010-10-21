@@ -53,6 +53,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RTD.cs" />
     <Compile Include="RTDDLL.cs" />
+    <Compile Include="UpdateEvent.cs" />
+    <Compile Include="UpdateEventDLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
