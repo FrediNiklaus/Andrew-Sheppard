@@ -1,0 +1,3 @@
+LIBRARY	"TestDLL32"
+EXPORTS
+	WindowsBitness	@1

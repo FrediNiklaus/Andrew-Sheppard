@@ -1,0 +1,27 @@
+// MyRTDShim.idl 
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MyRTDShim.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(24382EFF-7A2A-475B-BC5F-A853DF486ADA),
+	version(1.0),
+	helpstring("MyRTDShim 1.0 Type Library")
+]
+library MyRTDShimLib
+{
+	importlib("stdole2.tlb");
+
+	[
+		uuid(8b8172ac-ea72-4111-ac8c-b891f1f944a1),
+		helpstring("RTDProxy Class")
+	]
+	coclass RTDProxy
+	{
+		[default] interface IUnknown;
+	};
+
+};
