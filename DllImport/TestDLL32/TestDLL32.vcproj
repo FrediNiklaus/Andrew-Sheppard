@@ -83,7 +83,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="COPY /Y $(TargetDir)\TestDLL32.dll $(SolutionDir)\DLL32"
+				CommandLine="COPY /Y $(TargetDir)$(TargetFileName) $(SolutionDir)DLL32&#x0D;&#x0A;COPY /Y $(TargetDir)$(TargetFileName) $(SolutionDir)DLL32\Test.dll&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration

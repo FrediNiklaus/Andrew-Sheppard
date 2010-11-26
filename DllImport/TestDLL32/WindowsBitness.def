@@ -1,3 +1,4 @@
 LIBRARY	"TestDLL32"
 EXPORTS
 	WindowsBitness	@1
+	ProcessBitness	@2

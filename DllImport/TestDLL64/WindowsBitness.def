@@ -1,4 +1,6 @@
 LIBRARY	"TestDLL64"
 EXPORTS
 	WindowsBitness	@1
+	ProcessBitness	@2
+	
 

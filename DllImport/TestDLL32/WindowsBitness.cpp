@@ -30,3 +30,12 @@ extern "C" int WindowsBitness()
 	else
 		return 32;
 }
+
+extern "C" int ProcessBitness()
+{
+#if defined(_WIN64)
+	return 64;
+#elif defined(_WIN32)
+	return 32;
+#endif
+}

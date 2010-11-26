@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.IO;
+using TestDLL;
 
 namespace Program
 {
@@ -9,6 +8,12 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            Test dll = new Test();
+
+            Console.WriteLine(dll.Win32OrWin64());
+
+            // Debug: keep the terminal window open.
+            Console.ReadLine();
         }
     }
 }
